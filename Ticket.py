@@ -54,7 +54,7 @@ class TicketSwapMe:
 
     def start(self):
         time.sleep(7)
-        self.driver.get('insert url here')
+        self.driver.get('https://www.ticketswap.nl/event/andrew-schulz-the-life-tour/seats-tickets/f6d4c616-e675-47f1-b107-bc00b7518823/3133906')
 
         while True:
             time.sleep(3)
