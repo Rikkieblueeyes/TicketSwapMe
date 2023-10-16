@@ -24,8 +24,8 @@ class TicketSwapMe:
         self.has_tickets = False
 
     def login(self):
-        username = 'insert facebook email here'
-        password = 'insert facebook password here'
+        username = 'rcmwouters@outlook.com'
+        password = 'recbyV-qytwut-2kyhge'
 
         self.driver.get(HOST)
         login_button = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/nav/div[1]/ul/li[3]/button")
